@@ -1,15 +1,12 @@
-import React from "react";
-import { Sparkles } from "lucide-react";
+import CardShirt from "@/components/CardShirt";
 import Hero from "@/components/Hero";
-import Card from "@/components/Card";
+import Image from "next/image";
 
-const page = () => {
+export default function Home() {
   return (
-    <>
-      <Hero />;
-      <Card />
-    </>
+    <div>
+      <Hero />
+      <CardShirt />
+    </div>
   );
-};
-
-export default page;
+}
