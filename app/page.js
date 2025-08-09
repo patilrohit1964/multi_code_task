@@ -1,11 +1,15 @@
-import Image from "next/image";
+import React from "react";
+import { Sparkles } from "lucide-react";
+import Hero from "@/components/Hero";
+import Card from "@/components/Card";
 
-export default function Home() {
+const page = () => {
   return (
-    <div className="bg-[#f2f0f1]">
-      <div>
-        <h1>FIND CLOTHES THAT MATCHES YOUR STYLE</h1>
-      </div>
-    </div>
+    <>
+      <Hero />;
+      <Card />
+    </>
   );
-}
+};
+
+export default page;
