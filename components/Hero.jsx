@@ -2,9 +2,9 @@ import React from 'react'
 import { Sparkles } from "lucide-react";
 const Hero = () => {
     return (
-        <section className="relative bg-[#F2F0F1] min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8">
+        <section className="relative bg-[#F2F0F1] min-h-screen flex items-center justify-center py-18 px-4 sm:px-6 lg:px-8">
             {/* Decorative sparkle - top right */}
-            <div className="absolute top-20 right-20 hidden lg:block">
+            <div className="absolute top-20 right-110 hidden lg:block">
                 <Sparkles
                     className="w-16 h-16 text-black transform rotate-12"
                     fill="currentColor"
@@ -12,16 +12,16 @@ const Hero = () => {
             </div>
 
             {/* Decorative sparkle - left side */}
-            <div className="absolute left-20 top-1/2 transform -translate-y-1/2 hidden lg:block">
+            <div className="absolute left-85 top-1/2 transform -translate-y-1/2 hidden lg:block">
                 <Sparkles
                     className="w-12 h-12 text-black transform -rotate-12"
                     fill="currentColor"
                 />
             </div>
 
-            <div className="max-w-4xl mx-auto text-center">
+            <div className="max-w-4xl mx-auto">
                 {/* Main Headline */}
-                <h1 className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-black text-black leading-tight mb-8">
+                <h1 className="text-5xl sm:text-6xl lg:text-7xl xl:text-7xl font-black text-black mb-8">
                     FIND CLOTHES
                     <br />
                     THAT MATCHES
@@ -30,7 +30,7 @@ const Hero = () => {
                 </h1>
 
                 {/* Subtitle */}
-                <p className="text-gray-600 text-lg sm:text-xl max-w-2xl mx-auto mb-12 leading-relaxed">
+                <p className="text-gray-600 text-lg sm:text-md max-w-2xl mx-auto mb-12 leading-relaxed">
                     Browse through our diverse range of meticulously crafted garments,
                     designed to bring out your individuality and cater to your sense of
                     style.
@@ -51,7 +51,6 @@ const Hero = () => {
                             International Brands
                         </div>
                     </div>
-
                     <div className="text-center">
                         <div className="text-3xl sm:text-4xl lg:text-5xl font-black text-black mb-2">
                             2000+
@@ -60,7 +59,6 @@ const Hero = () => {
                             High-Quality Products
                         </div>
                     </div>
-
                     <div className="text-center">
                         <div className="text-3xl sm:text-4xl lg:text-5xl font-black text-black mb-2">
                             30,000+

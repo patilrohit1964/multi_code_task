@@ -14,19 +14,19 @@ const Footer = () => {
                         </h1>
                     </div>
 
-                    <div className='lg:flex-1 lg:max-w-md lg:ml-8'>
+                    <div className='lg:max-w-md lg:ml-8'>
                         <div className='relative mb-4'>
                             <Mail
                                 color='gray'
                                 className='absolute left-4 top-1/2 transform -translate-y-1/2 z-10 w-5 h-5'
                             />
                             <input
-                                className='w-full bg-white rounded-full py-3 pl-12 pr-4 text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50'
+                                className='w-full md:w-[240px] bg-white rounded-full py-3 pl-12 pr-4 text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50'
                                 placeholder='Enter your email address'
                                 type="email"
                             />
                         </div>
-                        <button className='w-full bg-white text-black rounded-full px-6 py-3 font-medium hover:bg-gray-100 transition-colors cursor-pointer'>
+                        <button className=' w-full md:w-[240px] bg-white text-black rounded-full px-6 py-3 font-medium hover:bg-gray-100 transition-colors cursor-pointer'>
                             Subscribe to Newsletter
                         </button>
                     </div>
