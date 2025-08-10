@@ -42,7 +42,7 @@ const Hero = () => {
                 </button>
 
                 {/* Stats Section */}
-                <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 sm:gap-12 max-w-3xl mx-auto">
+                <div className="grid grid-cols-2 sm:grid-cols-3 gap-8 sm:gap-12 max-w-3xl mx-auto">
                     <div className="text-center">
                         <div className="text-3xl sm:text-4xl lg:text-5xl font-black text-black mb-2">
                             200+
@@ -59,7 +59,7 @@ const Hero = () => {
                             High-Quality Products
                         </div>
                     </div>
-                    <div className="text-center">
+                    <div className="text-center col-span-3 sm:col-span-1">
                         <div className="text-3xl sm:text-4xl lg:text-5xl font-black text-black mb-2">
                             30,000+
                         </div>
