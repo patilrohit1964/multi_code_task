@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from 'react';
-import { Search, ShoppingCart, User, ChevronDown, Menu, X } from 'lucide-react';
+import { Search, ShoppingCart, User, ChevronDown, Menu, X, UserCircle } from 'lucide-react';
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -53,21 +53,21 @@ const Navbar = () => {
                     {/* Action Icons */}
                     <div className="hidden md:flex items-center space-x-4">
                         <button className="p-2 text-gray-700 hover:text-black transition-colors duration-200">
-                            <ShoppingCart className="h-6 w-6" />
+                            <ShoppingCart className="h-6 w-6 text-black" />
                         </button>
                         <button className="p-2 text-gray-700 hover:text-black transition-colors duration-200">
-                            <User className="h-6 w-6" />
+                            <UserCircle className="h-6 w-6 text-black" />
                         </button>
                     </div>
 
                     {/* Mobile menu button */}
                     <div className="md:hidden flex">
-                        <div>
+                        <div className="hidden md:flex items-center space-x-4">
                             <button className="p-2 text-gray-700 hover:text-black transition-colors duration-200">
-                                <ShoppingCart className="h-6 w-6" />
+                                <ShoppingCart className="h-6 w-6 text-black" />
                             </button>
                             <button className="p-2 text-gray-700 hover:text-black transition-colors duration-200">
-                                <User className="h-6 w-6" />
+                                <UserCircle className="h-6 w-6 text-black" />
                             </button>
                         </div>
                         <button
