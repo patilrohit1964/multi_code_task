@@ -6,9 +6,9 @@ const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <nav className="w-full bg-white border-b border-gray-200 sticky top-0 z-[1000]">
-            <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
-                <div className="flex items-center justify-between h-24">
+        <nav className="w-full bg-white border-b border-gray-200 sticky top-0 z-[1000] overflow-hidden">
+            <div className="max-w-7xl mx-auto sm:px-6 lg:px-8 overflow-hidden">
+                <div className="flex items-center justify-between h-24 px-2">
                     {/* Logo */}
                     <div className="flex-shrink-0">
                         <h1 className="text-2xl font-bold text-black">SHOP.CO</h1>
@@ -62,7 +62,7 @@ const Navbar = () => {
 
                     {/* Mobile menu button */}
                     <div className="md:hidden flex">
-                        <div className="hidden md:flex items-center space-x-4">
+                        <div className="md:flex items-center">
                             <button className="p-2 text-gray-700 hover:text-black transition-colors duration-200">
                                 <ShoppingCart className="h-6 w-6 text-black" />
                             </button>
