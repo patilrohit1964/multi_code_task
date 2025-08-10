@@ -59,7 +59,7 @@ const Footer = () => {
                         <div className='flex flex-col gap-4'>
                             <h2 className="text-lg font-semibold text-black tracking-wide">HELP</h2>
                             <ul className='space-y-3'>
-                                {['Customer Support', 'Delivery Details', 'Terms & Conditions', 'Privacy Policy'].map(item => (
+                                {['Privacy statement', 'Terms & Conditions', 'Cookie Policy'].map(item => (
                                     <li key={item} className='text-gray-600 hover:text-gray-900 cursor-pointer transition-colors text-sm lg:text-base'>
                                         {item}
                                     </li>
