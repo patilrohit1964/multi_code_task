@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className='mt-40'>
             {/* Newsletter Section */}
-            <div className='mx-4 lg:mx-auto lg:w-[80%] lg:absolute lg:left-[10%] lg:top-[375%] z-50'>
+            <div className='mx-4 lg:mx-auto lg:w-[80%] lg:absolute lg:left-[10%] lg:top-[85%] z-50'>
                 <div className='bg-black rounded-2xl lg:rounded-4xl px-6 py-8 lg:px-14 lg:py-9 lg:h-[180px] flex flex-col lg:flex-row lg:justify-between lg:items-center gap-6 lg:gap-0'>
                     <div className='lg:flex-1'>
                         <h1 className='text-white text-2xl lg:text-5xl font-bold leading-tight'>
